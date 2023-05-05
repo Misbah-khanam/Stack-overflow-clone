@@ -79,7 +79,7 @@ const QuestionDetails = () => {
     const Navigate = useNavigate()
     const dispatch = useDispatch()
     const location = useLocation()
-    const url = 'http://localhost:3000'
+    const url = 'http://stack-overflow-clone-frontend-991y.onrender.com'
 
     const handlePostAns = (e, answerLength) => {
         e.preventDefault();
