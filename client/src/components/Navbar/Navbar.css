@@ -15,13 +15,14 @@
 }
 .navbar{
     height: 100%;
-    min-width: 85%;
+    min-width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .nav-logo{
     padding: 5px 10px;
+    margin-left: 7%;
 }
 
 .nav-item{
@@ -31,6 +32,12 @@
     text-decoration: none;
     color: rgb(69,69,69);
     transition: 0.2s;
+    /* display: inline-flex; */
+}
+
+.nav-btns{
+    list-style-type: none;
+    display: flex;
 }
 
 .nav-btn{
@@ -47,6 +54,7 @@
     flex-grow: 1;
     padding: 0px 12px;
     position: relative;
+    margin-right: 20px;
 }
 
 .navbar form input{
@@ -73,8 +81,36 @@
     border-radius: 3px;
     background-color: #e7f8fe;
     cursor: pointer;
+    margin-right: 7%;
 }
 
 .nav-links:hover{
     background-color: #d3e4eb;
+}
+
+.icon-bars,
+.icon-cancel{
+    display: none;
+}
+@media screen and (max-width: 915px){
+    .nav-logo{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 652px) {
+    .nav-logo{
+        display: none;
+    }
+    .nav-btns{
+        display: none;
+    }
+    .icon-bars{
+        display: block;
+        margin-left: 5%;
+    }
+
+    .nav-btns2{
+        padding-left: 50px;
+    }
 }

@@ -66,3 +66,9 @@
     border-radius: 2px;
     font-size: 13px;
 }
+
+@media screen and (max-width: 915px) {
+    .right-sidebar{
+        width: 100%;
+    }
+}
