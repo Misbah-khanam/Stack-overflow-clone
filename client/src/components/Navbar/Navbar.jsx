@@ -89,7 +89,7 @@ const Navbar = () => {
         <Link to="/" className='nav-logo'>
           <img src={logo} alt="logo" />
         </Link>
-        <div className='icon-bars' onClick={handleMenu}><img src={menuIcon} alt="menu" width="18" /></div>
+        <div className='icon-bars' onClick={handleMenu}><img src={menuIcon} alt="pen" width="13" /></div>
         <div className='icon-cancel'><span className='fas fa-times'></span></div>
         <div className='nav-btns'>
           <li><Link to="/" className='nav-item nav-btn' >About</Link></li>

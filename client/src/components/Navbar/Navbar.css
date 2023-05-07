@@ -119,6 +119,7 @@
 @media screen and (max-width: 420px) {
     .navbar form input{
         min-width: 60%;
+        font-size: 10px;
     }
     .navbar form{
         margin-right: 0px;
@@ -127,5 +128,7 @@
         display: block;
         margin-left: 2%;
     }
-    
+    .nav-item{
+        font-size: 10px;
+    }
 }
