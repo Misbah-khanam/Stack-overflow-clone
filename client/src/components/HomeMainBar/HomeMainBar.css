@@ -37,6 +37,9 @@
     background-color: #fdf7e2;
     border-bottom: solid 1px #edeff0;
 }
+.display-votes-ans-div{
+    display: flex;
+}
 
 .display-question-container .display-votes-ans{
     padding: 20px;
@@ -96,6 +99,20 @@
 @media screen and (max-width: 915px) {
     .main-bar{
         width: 100%;
+    }
+    
+}
+@media screen and (max-width: 450px) {
+    .display-question-container{
+        display: block;
+    }
+    .display-votes-ans-div{
+        display: flex;
+    }
+    .display-question-container .display-votes-ans p{
+        margin: 0%;
+        text-align: center;
+        font-size: 14px;
     }
 }
 
